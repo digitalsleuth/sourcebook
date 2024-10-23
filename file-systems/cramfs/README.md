@@ -51,3 +51,14 @@ Once you've converted the endianness (if necessary), then you can use the tool `
 Note, these two tools will have to be built using `make` or using your favorite compiler. Once compiled, the command will be:
 `./uncramfs <output_directory> <input_file>` and your file system will be decompressed. It may also be possible to use the `mount -t cramfs` command to mount the image, but this would involve adding the driver subtype, which is not covered here.
 
+## Tools
+
+These tools may be useful during analysis, but not all of them have been tested. USE AT YOUR OWN RISK!
+
+cramfs-tools - https://github.com/npitre/cramfs-tools  
+firmware-mod-kit - https://github.com/rampageX/firmware-mod-kit (src/uncramfs and src/uncramfs-lzma)
+cramfsswap - https://launchpad.net/ubuntu/+source/cramfsswap
+lzma-uncramfs - https://github.com/digiampietro/lzma-uncramfs
+binwalk - https://github.com/ReFirmLabs/binwalk
+
+
