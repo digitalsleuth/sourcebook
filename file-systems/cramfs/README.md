@@ -48,7 +48,7 @@ There are a couple of ways to do this:
 - You can also use scripting to open the file read x # of bytes (where x is the endianness byte length, usually 4 bytes), convert the endianness of the bytes you've read and write them to another file
 
 Once you've converted the endianness (if necessary), then you can use the tool `uncramfs` or `uncramfs-lzma` as necessary, from https://github.com/rampageX/firmware-mod-kit (under the src/ directory). 
-Note, these two tools will have to be built using `make` or using your favorite compiler. Once compiled, the command will be:
+Note, these two tools will have to be built using `make` or using your favorite compiler. Once compiled, the command will be:  
 `./uncramfs <output_directory> <input_file>` and your file system will be decompressed. It may also be possible to use the `mount -t cramfs` command to mount the image, but this would involve adding the driver subtype, which is not covered here.
 
 ## Tools
@@ -56,9 +56,9 @@ Note, these two tools will have to be built using `make` or using your favorite 
 These tools may be useful during analysis, but not all of them have been tested. USE AT YOUR OWN RISK!
 
 cramfs-tools - https://github.com/npitre/cramfs-tools  
-firmware-mod-kit - https://github.com/rampageX/firmware-mod-kit (src/uncramfs and src/uncramfs-lzma)
-cramfsswap - https://launchpad.net/ubuntu/+source/cramfsswap
-lzma-uncramfs - https://github.com/digiampietro/lzma-uncramfs
-binwalk - https://github.com/ReFirmLabs/binwalk
+firmware-mod-kit - https://github.com/rampageX/firmware-mod-kit (src/uncramfs and src/uncramfs-lzma)  
+cramfsswap - https://launchpad.net/ubuntu/+source/cramfsswap  
+lzma-uncramfs - https://github.com/digiampietro/lzma-uncramfs  
+binwalk - https://github.com/ReFirmLabs/binwalk  
 
 
