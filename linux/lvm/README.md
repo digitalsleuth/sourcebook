@@ -14,10 +14,10 @@ Notes:
 |Offset   |Size             |Value                  |Description |
 |-      |-                  |-                      |- |
 |0      |8                  |LABELONE               |Signature |
-|8		|8					|						|Sector Number of the Physical Volume Label Header (
+|8		|8					|						|Sector Number of the Physical Volume Label Header |
 |16		|4					|						|CRC-32 Checksum for offset 20 to end of the Physical Volume Label Sector|
 |20		|4					|						|Data offset or header size in bytes relative from the start of the Physical Volume Label Sector|
-|24		|8					|LVM2 001				|Type |
+|24		|8					|LVM2 001				|Volume Type |
 
 Additional information about the remainder of the Physical Volume Header can be found at the Source listed above.  
   
