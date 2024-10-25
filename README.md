@@ -1,6 +1,7 @@
 # SourceBook  
 
-![](.assets/FingerPrint128-100dpi.png)  
+
+<p align="center"><img src="https://github.com/digitalsleuth/sourcebook/blob/main/.assets/FingerPrint128-100dpi.png?raw=true" /></p>
 
 The purpose of this repo is to provide a location for useful DFIR knowledge, such as data structures and formats, tools used for analysis, and references for additional research.  
 
