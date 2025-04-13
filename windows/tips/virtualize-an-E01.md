@@ -1,5 +1,12 @@
 ## How to Virtualize an E01 with Hyper-V
 
+The steps below are provided simply for a forensic analyst to virtualize an E01 to conduct simple activities with standard end-user-interaction type processes.  
+This process only provides you the same access to the system as the end user would have, with all configurations and SYSTEM level processes intact, but with no other inherent technological benefits.
+
+While this process uses Arsenal Image Mounter in its free / unlicensed state, the licensed version of AIM does allow for the virtualization of an E01 with more advanced features such as DPAPI Bypass and AV Evasion.
+
+Make sure you understand the limitations this method provides before you proceed.
+
 1. Confirm that you have Arsenal Image Mounter installed.
 2. Confirm that Hyper-V is enabled on the local system by clicking the Start menu and typing “features”, then select “Turn Windows features on or off”.
 3. In the list which comes up, make sure that the checkbox for Hyper-V is fully clicked and not partially or completely unchecked. Click OK.
