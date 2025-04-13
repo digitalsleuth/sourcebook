@@ -2,8 +2,9 @@
 
 The steps below are provided simply for a forensic analyst to virtualize an E01 to conduct simple activities with standard end-user-interaction type processes.  
 This process only provides you the same access to the system as the end user would have, with all configurations and SYSTEM level processes intact, but with no other inherent technological benefits.
+If you want to automate this process, you can use the [Create-ImageVm.psm1](https://github.com/digitalsleuth/sourcebook/blob/main/windows/tips/Create-ImageVm.psm1) PowerShell module in this same repo.
 
-While this process uses Arsenal Image Mounter in its free / unlicensed state, the licensed version of AIM does allow for the virtualization of an E01 with more advanced features such as DPAPI Bypass and AV Evasion.
+**NOTE:** While this process uses Arsenal Image Mounter in its free / unlicensed state, the licensed version of AIM does allow for the virtualization of an E01 with more advanced features such as DPAPI Bypass and AV Evasion.
 
 Make sure you understand the limitations this method provides before you proceed.
 
